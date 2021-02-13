@@ -1,0 +1,36 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@model List<NetC.JuniorDeveloperExam.Web.Models.Post>
+@using System.Web.Optimization
+@Styles.Render("~/content/posts")
+<div class="container">
+    <div class="col-xs-12" id="AllBlogPosts">
+        <label>All Blog Posts</label>
+
+        <div class="row col-xs-12">
+            <table class="table table-borderless table-md">
+                <thead class="table-dark">
+                    <tr>
+                        <th scope="col">Title</th>
+                        <th scope="col"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @for (var i = 0; i < Model.Count(); i++)
+                    {
+                        <tr>
+                            <td scope="row">@Model[i].Title</td>
+                            <td scope="row"><a href="@Url.Action("","Blog" , new { id = Model[i].ID})">View</a></td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+
+</div>
+

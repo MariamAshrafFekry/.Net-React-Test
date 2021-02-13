@@ -1,0 +1,53 @@
+﻿
+@{
+    ViewBag.Title = "Error";
+    Layout = null;
+}
+<html>
+<head>
+    <title>Error</title>
+
+    <link rel="stylesheet" href="/Assets/Styles/bootstrap.min.css" />
+
+    <style>
+        #ErrorImage {
+            width: 175px;
+            margin: 45px auto;
+        }
+
+        #ErrorTitle {
+            color: red;
+        }
+
+        #ErrorMessage {
+            color: gray;
+            margin-top: 25px;
+        }
+        .container > .row > div{
+            margin:auto;
+        }
+        body , html , .container , .row , .row > div {
+            height:100%;
+        }
+        .card {
+            height: 60%;
+            margin-top: 20%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-6">
+                
+                <div class="card">
+                    <img src="~/Assets/Images/error.png" id="ErrorImage" />
+                    <h2 id="ErrorTitle"  class="text-center">Error</h2>
+                    <h5 id="ErrorMessage" class="text-center">An error occured while processing your request.</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+

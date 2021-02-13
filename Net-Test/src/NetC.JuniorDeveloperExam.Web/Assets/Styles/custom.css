@@ -1,0 +1,22 @@
+﻿body {
+    padding-top: 56px;
+}
+
+.user-avatar {
+    max-width: 50px;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #bac2c8;
+    border-radius: 5px;
+}
+#Loading {
+    display: none;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index:999;
+}

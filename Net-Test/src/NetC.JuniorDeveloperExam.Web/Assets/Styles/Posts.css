@@ -1,0 +1,15 @@
+﻿#AllBlogPosts {
+    width: 100%;
+}
+
+    #AllBlogPosts > label {
+        text-align: center;
+        width: 100%;
+        margin: 10px auto;
+        color: #aeaeae;
+        font-size: 22px;
+    }
+
+    #AllBlogPosts .table tbody tr:nth-child(odd) {
+        background: #f4f4f4;
+    }

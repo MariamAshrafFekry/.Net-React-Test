@@ -1,0 +1,49 @@
+#PostsList{
+    font-size:20px;
+    width: 50%;
+    margin-left: 25%;
+}
+#PostsList > li{
+    list-style: none;
+ 
+    border: 1px solid #f3f3f3;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+#PostsList .AuthorInfo{
+    margin-top: 0;
+    color: #234288;
+    background-color: #b9bbbd0d;
+    border-bottom: 1px solid #f2f2f2;
+    margin:0px;
+    padding: 5px 0px;
+}
+.AuthorInfo img{
+    max-width: 50px;
+    margin: 0px 10px;
+}
+.AuthorInfo label{
+    margin: 0px;
+    vertical-align: super;
+}
+.AuthorInfo .Time{
+    display: block;
+    position: relative;
+    margin-left: 75px;
+    font-size: 12px;
+    color: #a7a5a5;
+    font-weight: bold;
+    margin-top: -6px;
+}
+.Title{
+    font-style: italic;
+    margin: 0px 0px 15px;
+    text-align: center;
+    color: #1c6ea9;
+}
+#PostsList .Content{
+    padding: 15px
+}
+.Content span{
+    font-size: 15px;
+}

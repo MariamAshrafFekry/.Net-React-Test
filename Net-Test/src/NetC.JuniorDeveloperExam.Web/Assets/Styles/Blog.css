@@ -1,0 +1,22 @@
+﻿.user-avatar {
+    width: 50px;
+    background: lightgray;
+    height: 50px;
+    color: black;
+    font-weight: bold;
+}
+
+    .user-avatar label {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        font-size: 17px;
+    }
+
+#parentDiv {
+    max-height: calc(100vh - 60px);
+    overflow: auto;
+}
+.replies {
+    margin-top: 25px;
+}
